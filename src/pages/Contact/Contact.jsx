@@ -13,13 +13,12 @@ const Contact = () => {
 	return (
 		<div className='flex items-center justify-center flex-col gap-5 mt-5'>
 			<h1>Enter the details and click Submit</h1>
-			<form
-				className='w-2/5 flex flex-col gap-5'
-				// onSubmit={fromSubmitHandler}
-				action='https://formsubmit.co/info@saayamforall.com'
-				method='POST'
-			>
-				<label
+		                <form
+                                       className='w-2/5 flex flex-col gap-5'
+                                       action='https://formsubmit.co/d328514507f7ddb5e29aa2fadfc71690'
+                                 method='POST'
+              >
+		<label
 					for='firstName'
 					className='relative block rounded-md border border-gray-200 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600'
 				>
